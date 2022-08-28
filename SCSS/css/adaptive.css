@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.header_tablet {
+  width: 100%;
+  margin: 2vw 0;
+}
+
+.headlineContainer_tablet {
+  display: flex;
+  width: 20vw;
+}
+.headlineContainer_tablet .logotypeHeadline_tablet {
+  display: flex;
+  justify-content: center;
+  width: 2.8vw;
+}
+.headlineContainer_tablet .logotypeHeadline_tablet img {
+  max-width: 100%;
+}
+.headlineContainer_tablet .theTextOfthHeaderContainer_tablet {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.headlineContainer_tablet .theTextOfthHeaderContainer_tablet .tittle_tablet {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(12, 118, 216);
+  height: 60%;
+  display: flex;
+  align-items: center;
+}
+.headlineContainer_tablet .theTextOfthHeaderContainer_tablet .subTittle_tablet {
+  font-size: 8px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: rgb(42, 45, 70);
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.menuContainer-headerContainer_tablet {
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 24vw;
+  font-size: 12px;
+  color: rgb(42, 45, 70);
+}
+
+.buttonMakeAnOrder_tablet {
+  display: none;
+}
+.buttonMakeAnOrder_tablet .button_tablet {
+  display: none;
+}
+
+.menuBurgerForTabletAndPhones {
+  width: 5vw;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .up {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .center {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .down {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+}
+
+.menuBurgerCrossView {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menuBurgerCrossView .up_start {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimUp !important;
+          animation-name: burAnimUp !important;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBurgerCrossView .center_start {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimCentr !important;
+          animation-name: burAnimCentr !important;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBurgerCrossView .down_start {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimDown !important;
+          animation-name: burAnimDown !important;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.menuBurgerCrossView_rev {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.menuBurgerCrossView_rev .up_rev {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimUp_rev;
+          animation-name: burAnimUp_rev;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBurgerCrossView_rev .center_rev {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimCentr_rev;
+          animation-name: burAnimCentr_rev;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menuBurgerCrossView_rev .down_rev {
+  height: 10%;
+  width: 100%;
+  background-color: black;
+  -webkit-animation-name: burAnimDown_rev;
+          animation-name: burAnimDown_rev;
+  -webkit-animation-duration: 300ms;
+          animation-duration: 300ms;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes burAnimCentr {
+  0% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-4vw) scale(-0.4);
+  }
+}
+
+@keyframes burAnimCentr {
+  0% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-4vw) scale(-0.4);
+  }
+}
+@-webkit-keyframes burAnimUp {
+  0% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+  100% {
+    transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+  }
+}
+@keyframes burAnimUp {
+  0% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+  100% {
+    transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+  }
+}
+@-webkit-keyframes burAnimDown {
+  0% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+  }
+}
+@keyframes burAnimDown {
+  0% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+  100% {
+    transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+  }
+}
+@-webkit-keyframes burAnimCentr_rev {
+  0% {
+    opacity: 0;
+    transform: translateY(-4vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+}
+@keyframes burAnimCentr_rev {
+  0% {
+    opacity: 0;
+    transform: translateY(-4vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0vw);
+  }
+}
+@-webkit-keyframes burAnimUp_rev {
+  0% {
+    transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+  }
+  100% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+}
+@keyframes burAnimUp_rev {
+  0% {
+    transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+  }
+  100% {
+    transform: translateY(0vw) rotate(0deg);
+  }
+}
+@-webkit-keyframes burAnimDown_rev {
+  0% {
+    transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}
+@keyframes burAnimDown_rev {
+  0% {
+    transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+  }
+  100% {
+    transform: translateY(0) rotate(0);
+  }
+}/*# sourceMappingURL=adaptive.css.map */

@@ -1,0 +1,258 @@
+//==========================ОБНУЛЕНИЕ=СТИЛЕЙ======================================
+
+@import "null.scss";
+
+//===========================ПОДКЛЮЧЕНИЕ=ШРИФТОВ====================================
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+
+//===========================ШРИФТЫ=ПО=УМОЛЧАНИЮ====================================
+
+$fontDefault:  1em;
+
+$fontFamilyDef: 'Montserrat', sans-serif;
+
+//===========================ЦВЕТ=ТЕКСТА=ПО=УМОЛЧАНИЮ====================================
+
+$colorOne: rgba(12, 118, 216, 1);
+
+$colorDefault: rgba(42, 45, 70, 1);
+
+//===========================ОСНОВНОЙ=КОД===========================================
+
+body{
+   font-family: $fontFamilyDef;
+}
+
+.contentContainer{
+
+   max-width: 1170px;
+   margin: 0px auto;
+   //border: 1px solid black;
+
+}
+
+//================================ШАПКА==============================================
+
+@import "header.scss";
+
+//============================Превью=================================================
+
+
+@import "previewTitle.scss";
+
+
+//============================Каталог=================================================
+
+@import "catalogProduct.scss";
+
+//============================Слайдер=================================================
+
+@import "slider.scss";
+
+//============================Реклама=================================================
+
+.containerBoxes{
+
+      //border: 1px solid black;
+
+      height: 40vw;
+      width: 95%;
+
+      transform: translateX(2.7vw);
+
+      display: flex;
+
+      .firstBox-adv{
+
+            //border: 1px solid black;
+
+            width: 50%;
+            height: 90%;
+
+            background-image: url('../../img/adv/01.png');
+            background-position: -5vw -5vw;
+            background-repeat: no-repeat;
+            background-size: 52vw 50vw;
+            
+            
+            
+
+            margin: 0 1vw 0 0;
+
+            box-shadow: 0 0 22px rgb(224, 224, 224);
+            
+            .titlesContainer{
+
+                  display: flex;
+
+                  width: 26vw;
+                  height: 15vw;
+
+                  //border: 1px solid black;
+
+                  transform: translate(3.22vw,17vw);
+
+                  .squareContainer{
+
+                        //border: 1px solid black;
+
+                        width: 2vw;
+                        height: 2vw;
+
+                        background-color: white;
+
+                  }
+
+                  .titles{
+
+
+                        display: flex;
+                        flex-direction: column;
+                        width: 28vw;
+                  
+                        .mainTitle{
+
+                              width: 100%;
+                              height: 13vw;
+
+                              //border: 1px solid black;
+
+                              display: flex;
+
+                              align-items: end;
+
+                              span{
+
+                                    font-size: 27px;
+                                    font-weight: bold;
+                                    color: white;  
+
+                              }
+
+
+                        }
+
+                        .subTitle-adv{
+
+                              width: 100%;
+                              height: 7vw;
+
+                              //border: 1px solid black;
+
+                              display: flex;
+
+                              align-items: center;
+
+                              span{
+                                    color:rgba(255, 255, 255, 0.635);
+                                    font-size: 16px;
+                              }
+
+                        }
+
+                  }
+
+            }
+
+      }
+
+
+
+      .secondBox-adv{
+
+            //border: 1px solid black;
+
+            width: 50%;
+            height: 90%;
+
+            background-image: url('../../img/adv/02.png');
+            background-position: -5vw -5vw;
+            background-repeat: no-repeat;
+            background-size: 52vw 50vw;
+
+
+            margin: 0 0 0 1vw;
+
+            box-shadow: 0 0 22px rgb(224, 224, 224);
+            
+            
+            .titlesContainer{
+
+                  display: flex;
+
+                  width: 26vw;
+                  height: 15vw;
+
+                  //border: 1px solid black;
+
+                  transform: translate(3.22vw,17vw);
+
+                  .squareContainer{
+
+                        //border: 1px solid black;
+
+                        width: 2vw;
+                        height: 2vw;
+
+                        background-color: white;
+
+                  }
+
+                  .titles{
+
+
+                        display: flex;
+                        flex-direction: column;
+                        width: 28vw;
+
+                  
+                        .mainTitle{
+
+                              width: 100%;
+                              height: 13vw;
+
+                              //border: 1px solid black;
+
+                              display: flex;
+
+                              align-items: end;
+
+                              span{
+
+                                  font-size: 27px;
+                                  font-weight: bold;
+                                  color: white;  
+
+                              }
+
+
+                        }
+
+                        .subTitle-adv{
+
+                              width: 100%;
+                              height: 7vw;
+
+                              //border: 1px solid black;
+
+                              display: flex;
+
+                              align-items: center;
+
+                              span{
+                                    
+                                    color:rgba(255, 255, 255, 0.635);
+                                    font-size: 16px;
+
+                              }
+
+                        }
+
+                  }
+
+            }
+
+      }
+
+}

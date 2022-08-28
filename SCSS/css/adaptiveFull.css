@@ -1,0 +1,907 @@
+
+/* DEFAULT_SETTINGS */
+.menuBurgerForTabletAndPhones .containerBurMenu {
+  display: none;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .up {
+  display: none;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .center {
+  display: none;
+}
+.menuBurgerForTabletAndPhones .containerBurMenu .down {
+  display: none;
+}
+
+.headerForPhones-mobile{
+  display: none;
+}
+
+.numberPhone-headerContainer-mobile{
+  display: none;
+}
+
+.quantityManyAndBasket-mobile{
+  display: none;
+}
+
+
+/* ==============================1024=================================== */
+
+/* БАШКА_САЙТА */
+
+@media screen and (max-width:1024px) {
+
+  .menuBurgerForTabletAndPhones .containerBurMenu {
+     display: none;
+   }
+   .menuBurgerForTabletAndPhones .containerBurMenu .up {
+     display: none;
+   }
+   .menuBurgerForTabletAndPhones .containerBurMenu .center {
+     display: none;
+   }
+   .menuBurgerForTabletAndPhones .containerBurMenu .down {
+     display: none;
+   }
+
+   /* ------------------------------------------------- */
+   /* ------------------ПЕРВЫЙ_БОКС --------------------*/
+
+   .firstContainer .descriptionProduct .description{
+
+    font-size: 13px;
+
+   }
+
+   .firstContainer .descriptionProduct .buttonViewCatalog button{
+
+    font-size: 14px;
+
+   }
+
+
+   .firstContainer .photosProduct{
+
+    transform: translateX(-30%);
+   }
+
+    .bg-background{
+
+      top:9vw;
+
+    }
+
+    
+  }
+  
+  
+
+
+
+/* ==============================768=================================== */
+
+
+
+@media screen and (max-width: 768px) {
+
+/* ----------- БАШКА_САЙТА ---------------*/
+
+  .headerContainer .headlineContainer .theTextOfthHeaderContainer .subTittle span {
+    font-size: 0.7em;
+    flex-wrap: nowrap;
+  }
+
+   .headerContainer .menuContainer-headerContainer {
+     display: none;
+   }
+
+   .headerContainer .buttonMakeAnOrder {
+
+      display: none;
+
+   }
+   .menuBurgerForTabletAndPhones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+  
+   }
+
+   .menuBurgerForTabletAndPhones .containerBurMenu{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    flex-shrink: 0;
+    
+
+   }
+   .menuBurgerForTabletAndPhones .containerBurMenu .up {
+    display: block;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+
+    flex-shrink: 0;
+  }
+  .menuBurgerForTabletAndPhones .containerBurMenu .center {
+    display: block;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+
+    flex-shrink: 0;
+  }
+  .menuBurgerForTabletAndPhones .containerBurMenu .down {
+    display: block;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+
+    flex-shrink: 0;
+  }
+
+   .menuBurgerCrossView {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .menuBurgerCrossView .up_start {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimUp !important;
+            animation-name: burAnimUp !important;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .menuBurgerCrossView .center_start {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimCentr !important;
+            animation-name: burAnimCentr !important;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .menuBurgerCrossView .down_start {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimDown !important;
+            animation-name: burAnimDown !important;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  
+  .menuBurgerCrossView_rev {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .menuBurgerCrossView_rev .up_rev {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimUp_rev;
+            animation-name: burAnimUp_rev;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .menuBurgerCrossView_rev .center_rev {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimCentr_rev;
+            animation-name: burAnimCentr_rev;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  .menuBurgerCrossView_rev .down_rev {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    -webkit-animation-name: burAnimDown_rev;
+            animation-name: burAnimDown_rev;
+    -webkit-animation-duration: 300ms;
+            animation-duration: 300ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes burAnimCentr {
+    0% {
+      opacity: 1;
+      transform: translateY(0vw);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-4vw) scale(-0.4);
+    }
+  }
+  
+  @keyframes burAnimCentr {
+    0% {
+      opacity: 1;
+      transform: translateY(0vw);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-4vw) scale(-0.4);
+    }
+  }
+  @-webkit-keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @-webkit-keyframes burAnimDown {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+    }
+  }
+  @keyframes burAnimDown {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+    }
+  }
+  @-webkit-keyframes burAnimCentr_rev {
+    0% {
+      opacity: 0;
+      transform: translateY(-4vw);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0vw);
+    }
+  }
+  @keyframes burAnimCentr_rev {
+    0% {
+      opacity: 0;
+      transform: translateY(-4vw);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0vw);
+    }
+  }
+  @-webkit-keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+  @keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+  @-webkit-keyframes burAnimDown_rev {
+    0% {
+      transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+  @keyframes burAnimDown_rev {
+    0% {
+      transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+
+
+  /* --------------------------------------------------- */
+
+  /* --------------------ПЕРВЫЙ_БОКС-------------------- */
+
+  .firstContainer {
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+  }
+
+  .firstContainer .descriptionProduct{
+
+    width: 75vw;
+
+    align-items: flex-start;
+
+
+  }
+
+  .firstContainer .descriptionProduct .title{
+
+    margin: 2% 0;
+  }
+
+  .firstContainer .descriptionProduct .description{
+
+    margin: 2% 0;
+
+  }
+
+  .firstContainer .descriptionProduct .buttonViewCatalog{
+
+    width: 23vw;
+
+  }
+
+  .firstContainer .descriptionProduct .buttonViewCatalog button{
+
+    font-size: 11.55px;
+
+    
+
+  }
+
+
+  .firstContainer .photosProduct{
+
+    transform: translateX(-5%) translateY(10%) scale(2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70vw;
+
+  }
+
+  .bg-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left:0;
+    top:50vw;
+    
+
+  }
+
+  .bg-background{
+    left:0;
+    top:46vw;
+    width: 100%;
+    height: 65vw;
+  }
+
+  .bg-product{
+
+    left:10%;
+    
+    top:44vw;
+
+    width: 83vw ;
+    height: 35vw;
+
+  }
+
+  .bg-product .backGround{
+
+    width: 100%;
+
+  }
+
+  .bg-product .backGround .infoProd{
+
+    justify-content: space-between;
+
+  }
+
+  .bg-product .backGround .infoProd .nameProduct{
+
+    width: 27vw;
+
+  }
+  
+
+ }
+
+/* ==============================425=================================== */
+
+
+@media screen and (max-width:425px){
+
+
+  /* ----------- БАШКА_САЙТА ---------------*/
+
+  .headline-headerContainer{
+    display: flex;
+  }
+
+  .headerContainer .headlineContainer{
+
+    width: 50%;
+    height: 100%;
+   
+  }
+
+
+  .headerContainer .headlineContainer .logotypeHeadline {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+  }
+
+  .headerContainer .headlineContainer .theTextOfthHeaderContainer{
+    width: 60%;
+  }
+
+  .headerContainer .headlineContainer .theTextOfthHeaderContainer .subTittle{
+
+    white-space: nowrap;
+    font-size: 1em;
+
+  }
+
+  .headerContainer{
+    justify-content: space-between;
+    padding: 0 15px;
+  
+  }
+
+  .headerContainer .quantityManyAndBasket{
+
+    display: none;
+
+  }
+
+  .headerContainer .numberPhone-headerContainer{
+
+    display: none;
+
+  }
+
+  .menuBurgerForTabletAndPhones{
+    width: 12%;
+  }
+
+  .headerForPhones-mobile{
+    padding: 0 15px;
+    margin: 5% 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .numberPhone-headerContainer-mobile{
+      display: flex;
+      align-items: center;
+      margin: 0 1%;
+  }
+
+  .quantityManyAndBasket-mobile{
+      display:flex;
+      align-items: center;
+  }
+
+  @-webkit-keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(3.3vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(3.3vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @-webkit-keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(3.3vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+  @keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(4.2vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+
+
+
+  /* --------------------------------------------------------------- */
+
+  /* ---------------------------Первый бокс------------------------- */
+
+  .bg-img{
+
+    top:79vw;
+
+    height: 90vw;
+
+  }
+
+  .bg-background{
+    left:0;
+    top:75vw;
+    width: 100%;
+    height: 98vw;
+  }
+
+  .firstContainer .descriptionProduct{
+
+    /* border:1px solid black; */
+    width: 100%;
+  }
+
+  .firstContainer .descriptionProduct .buttonViewCatalog{
+
+    width: 50vw;
+    height: 10vw;
+    margin: 0 auto;
+
+  }
+
+  .firstContainer .photosProduct{
+
+    width: 100%;
+
+    height: 47vw ;
+    
+
+  }
+
+  .firstContainer .photosProduct .photos{
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .firstContainer .photosProduct .photos img{
+
+    max-width: 80%;
+
+    margin: 0 auto;
+  }
+
+  .bg-product{
+
+    top:70vw;
+
+  }
+
+  .bg-product .backGround .infoProd{
+
+    flex-direction: column;
+
+    height: 65vw;
+    width: 90%;
+
+  }
+
+  .bg-product .backGround .infoProd .switchingInfo{
+
+    order: 2;
+
+    
+
+    height: 20vw;
+   
+    
+  }
+  .bg-product .backGround .infoProd .switchingInfo .emptyBoxForSwith{
+
+    height: 10%;
+  }
+
+  .bg-product .backGround .infoProd .nameProduct{
+
+    order: 1;
+
+  }
+ 
+
+ }
+
+
+ /* ==============================375=================================== */
+
+ @media screen and (max-width:375px){
+
+
+  /* ----------- БАШКА_САЙТА ---------------*/
+
+  /* Корректировка бургера */
+
+
+  @-webkit-keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(4.2vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(4.2vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @-webkit-keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(4.2vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+  @keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(4vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+
+  /* --------------------------------------------------------*/
+
+
+  /* ---------------ПЕРВЫЙ_БОКС------------------------------ */
+
+  .bg-img{
+
+    top:97vw;
+
+    height: 90vw;
+
+  }
+
+  .bg-background{
+
+    top:95vw;
+    height:96vw;
+
+  }
+
+
+  .firstContainer{
+
+    height: 108vw;
+
+  }
+
+  .firstContainer .descriptionProduct{
+
+    /* border:1px solid black; */
+    width: 100%;
+    height: 56vw;
+    margin: 0 0 10% 0;
+  }
+
+  .firstContainer .descriptionProduct .title{
+
+    font-size: 28px;
+
+  }
+
+  .firstContainer .descriptionProduct .buttonViewCatalog{
+
+    width: 50vw;
+    height: 10vw;
+    margin: 0 auto;
+
+  }
+
+  .firstContainer .photosProduct{
+
+    width: 100%;
+
+    height: 47vw ;
+
+    /* transform: translateX(0) translateY(0) scale(0) ; */
+    
+    
+
+  }
+
+  .firstContainer .photosProduct .photos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transform: translateY(-25%);
+
+  }
+
+  .firstContainer .photosProduct .photos img{
+
+    max-width: 80%;
+
+    margin: 0 auto;
+  }
+
+  .bg-product{
+
+    top:89vw;
+
+  }
+
+  .bg-product .backGround .infoProd{
+
+    flex-direction: column;
+
+    height: 65vw;
+    width: 90%;
+
+  }
+
+  .bg-product .backGround .infoProd .switchingInfo{
+
+    order: 2;
+
+    
+
+    height: 20vw;
+   
+    
+  }
+  .bg-product .backGround .infoProd .switchingInfo .emptyBoxForSwith{
+
+    height: 10%;
+  }
+
+  .bg-product .backGround .infoProd .nameProduct{
+
+    order: 1;
+
+  }
+
+  main{
+
+    margin: 0 15px;
+
+  }
+
+
+ }
+
+ /* ==============================320=================================== */
+
+
+ 
+
+ @media screen and (max-width:320px){
+
+
+  /* ----------- БАШКА_САЙТА ---------------*/
+ 
+ /* Корректировка бургера */
+
+
+  @-webkit-keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(4.8vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @keyframes burAnimUp {
+    0% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+    100% {
+      transform: translateY(4.8vw) rotate(45deg) scale(0.7, 0.7);
+    }
+  }
+  @-webkit-keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(4.8vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+  @keyframes burAnimUp_rev {
+    0% {
+      transform: translateY(4.8vw) rotate(45deg) scale(0.7, 0.7);
+    }
+    100% {
+      transform: translateY(0vw) rotate(0deg);
+    }
+  }
+
+
+
+  /* ----------------------------------------------------*/
+
+  main{
+
+    margin: 0 15px;
+
+  }
+
+  .firstContainer .descriptionProduct{
+
+    padding: 0 0 10vw 0;
+
+  }
+
+  .firstContainer .descriptionProduct .title{
+
+    font-size: 27px;
+
+  }
+
+
+ }
+
+

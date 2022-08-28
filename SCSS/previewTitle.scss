@@ -1,0 +1,255 @@
+.firstContainer{
+
+
+   display: flex;
+   justify-content: space-between;
+
+   .descriptionProduct{
+
+      display: flex;
+      flex-direction:column;
+      justify-content: space-around;
+      align-items: center;
+
+      //border: 1px solid black;
+      
+      width: 33vw;
+
+      margin: 0 0 0 2.22vw;
+
+         .title{
+
+            font-size: 36px;
+            font-weight: bold;
+            color:$colorDefault;
+
+         }
+
+         .description{
+
+            font-size: 16px;
+            color:$colorDefault;
+
+         }
+
+         .buttonViewCatalog{
+
+            //border: 1px solid black;
+
+            height: 3vw;
+            width: 15vw;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: rgba(235, 45, 102, 1);
+
+            box-shadow: 0 0 5px rgba(235, 45, 102, 1);
+
+            button{
+
+               background-color: transparent;
+
+               color: white;
+
+               font-size: 16px;
+               font-weight: bold;
+
+
+            }
+         }
+
+   }
+
+   .photosProduct{
+
+      
+      transform: translateX(-20%);
+      
+      //border: 1px solid black;
+
+      .photos{
+
+      width: 38vw;
+      
+         img{
+            max-width:100%;
+         }
+      }
+
+   }
+
+
+}
+
+.bg-img{
+
+position: absolute;
+z-index: -1;
+
+left: 55.74vw;
+
+width: 42.95vw;
+
+img{
+
+   max-width: 100%;
+}
+
+}
+
+.bg-background{
+position: absolute;
+z-index: -2;
+
+top:7vw;
+left:63.71vw;
+
+background-color: rgba(128, 128, 128, 0.146);
+
+width: 35vw;
+height: 32vw;
+}
+
+
+.bg-product{
+position: absolute;
+//border: 1px solid black;
+
+left: 60vw;
+top:7vw;
+
+background-image: url('../img/previewTittle/bg-product.png');
+
+
+width: 38.71vw;
+height: 30vw;
+
+.backGround{
+
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+
+      .emptyBox{
+         
+         padding-top: 50%;
+         
+        // border: 1px solid black;
+
+      }
+
+
+      .infoProd{
+
+         height: 80%;
+         //border: 1px solid black;
+         display: flex;
+         
+         
+         padding-bottom: 12%;
+
+         .switchingInfo{
+
+            display: flex;
+            flex-direction: column;
+            width: 33vw;
+            .emptyBoxForSwith{
+
+               //border: 1px solid black;
+               height: 55%;
+               
+            }
+
+            .switch{
+
+               //border: 1px solid black;
+               height: 15%;
+               display: flex;
+               justify-content: space-around;
+
+               %styleBoxes{
+
+                  padding: 0 12%;
+                  margin: 0 3%;
+               }
+
+               .box{
+
+                  background-color: rgba(255, 255, 255, 0.305);
+
+                  @extend %styleBoxes;
+
+               }
+
+               .box-hide{
+
+                  background-color: rgb(255, 255, 255);
+
+                  @extend %styleBoxes;
+
+               }
+
+            }
+
+         }
+
+
+         .nameProduct{
+
+               //border:1px solid black;
+
+               display: flex;
+               flex-direction: column;
+
+               width: 40vw;
+               padding: 0 1vw 0 0;
+
+               .name{
+
+                  font-size: 15px;
+                  font-weight: bold;
+                  color:white;
+                  padding: 1% 0;
+
+               }
+
+               .descriptionProduct-name{
+
+                  font-size: 12px;
+
+
+                  padding: 5% 0;
+                  color:rgba(255, 255, 255, 0.631);
+
+               }
+
+               .costProduct{
+
+                  font-size: 12px;
+                  font-weight: bold;
+
+                  padding: 1% 0;
+                  color:white;
+
+               }
+
+               .arrow-name{
+
+                  display: flex;
+                  justify-content: end;
+                  
+
+               }
+
+         }
+
+      }
+
+
+}
+
+}

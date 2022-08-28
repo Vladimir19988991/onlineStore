@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic");
+header {
+  width: 100%;
+  margin: 3vw 0;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.headerContainer .headlineContainer {
+  display: flex;
+  width: 20vw;
+}
+.headerContainer .headlineContainer .logotypeHeadline {
+  display: flex;
+  justify-content: center;
+  width: 4vw;
+  height: 100%;
+}
+.headerContainer .headlineContainer .logotypeHeadline img {
+  max-width: 100%;
+}
+.headerContainer .headlineContainer .theTextOfthHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.headerContainer .headlineContainer .theTextOfthHeaderContainer .tittle {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: rgb(12, 118, 216);
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.headerContainer .headlineContainer .theTextOfthHeaderContainer .subTittle {
+  font-size: 11px;
+  font-weight: bold;
+  color: rgb(42, 45, 70);
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.headerContainer .headlineContainer .theTextOfthHeaderContainer .subTittle span {
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
+.headerContainer .menuContainer-headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 24vw;
+  font-size: 0.8em;
+  color: rgb(42, 45, 70);
+}
+.headerContainer .menuContainer-headerContainer .phones-menu {
+  flex-wrap: wrap;
+}
+.headerContainer .menuContainer-headerContainer .tablets-menu {
+  flex-wrap: wrap;
+}
+.headerContainer .menuContainer-headerContainer drones-menu {
+  flex-wrap: wrap;
+}
+.headerContainer .menuContainer-headerContainer .toys-menu {
+  flex-wrap: wrap;
+}
+.headerContainer .menuContainer-headerContainer .other-menu {
+  flex-wrap: wrap;
+}
+.headerContainer .numberPhone-headerContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 1%;
+}
+.headerContainer .numberPhone-headerContainer span {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.headerContainer .buttonMakeAnOrder {
+  display: flex;
+  align-items: center;
+  margin: 0 2%;
+  width: 11vw;
+}
+.headerContainer .buttonMakeAnOrder button {
+  width: 100%;
+  padding: 5% 0;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1.5px solid rgb(235, 45, 102);
+  border-radius: 2px;
+  color: rgb(235, 45, 102);
+}
+.headerContainer .quantityManyAndBasket {
+  display: flex;
+  justify-content: space-around;
+  width: 13vw;
+}
+.headerContainer .quantityManyAndBasket .bgBasket img {
+  display: block;
+  max-width: 100%;
+}
+.headerContainer .quantityManyAndBasket .qntyManys {
+  display: flex;
+  align-items: center;
+}
+.headerContainer .quantityManyAndBasket .qntyManys span {
+  display: block;
+}
+.headerContainer .quantityManyAndBasket .qntyManys .trngl {
+  display: block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid black;
+}/*# sourceMappingURL=header.css.map */

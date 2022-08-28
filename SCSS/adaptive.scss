@@ -1,0 +1,376 @@
+//==========================ОБНУЛЕНИЕ=СТИЛЕЙ======================================
+
+@import "null.scss";
+
+//===========================ПОДКЛЮЧЕНИЕ=ШРИФТОВ====================================
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+
+//===========================ШРИФТЫ=ПО=УМОЛЧАНИЮ====================================
+
+$fontDefault:  1em;
+
+$fontFamilyDef: 'Montserrat', sans-serif;
+
+//===========================ЦВЕТ=ТЕКСТА=ПО=УМОЛЧАНИЮ====================================
+
+$colorOne: rgba(12, 118, 216, 1);
+
+$colorDefault: rgba(42, 45, 70, 1);
+
+//===========================ОСНОВНОЙ=КОД===========================================
+
+
+//=================Планшеты==============================================
+   .header_tablet{
+      
+      width: 100%;
+      margin: 2vw 0;
+      
+      
+
+   }
+
+
+   //========
+
+   .headlineContainer_tablet{
+
+      display: flex;
+      width: 20vw;
+      //border: 1px solid black;
+     
+
+      .logotypeHeadline_tablet{
+
+         display: flex;
+         justify-content: center;
+         
+
+         width: 2.8vw;
+         //border: 1px solid black;
+
+            img{
+
+               max-width: 100%;
+
+            }
+
+      }
+
+      .theTextOfthHeaderContainer_tablet{
+
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            //padding: 0 4%;
+            //border: 1px solid black;
+
+            .tittle_tablet{
+
+               font-size: 14px;
+               font-weight: bold;
+               color: $colorOne;
+               height: 60%;
+
+               display: flex;
+               align-items: center;
+
+
+            }
+
+            .subTittle_tablet{
+
+               font-size: 8px;
+               white-space: nowrap;
+              
+               font-weight: bold;
+               color: $colorDefault;
+               height: 20%;
+
+               display: flex;
+               align-items: center;
+
+               //border: 1px solid black;
+
+
+            }
+
+
+      }
+
+
+}
+
+
+   //===================================
+
+   .menuContainer-headerContainer_tablet{
+
+      display: none;
+      align-items: center;
+      justify-content:space-around;
+      //border: 1px solid black;
+
+      width: 24vw;
+
+      font-size: 12px;
+
+      color:$colorDefault;
+
+
+   }
+
+
+//==============================
+
+
+   .buttonMakeAnOrder_tablet{
+      display: none;
+
+      .button_tablet{
+
+         display: none;
+
+      }
+
+   }
+
+
+   //================================
+
+
+   .menuBurgerForTabletAndPhones{
+     // border:  1px solid black;
+      width: 5vw;
+      
+
+            .containerBurMenu{
+
+               width: 100%;
+               height: 100%;
+               display: flex;
+               flex-direction: column;
+               justify-content: space-around;
+
+               .up{
+
+                  height: 10%;
+                  width: 100%;
+                  background-color: black;
+                   
+               }
+               .center{
+
+                  height: 10%;
+                  width: 100%;
+                  background-color: black;
+                   
+               }
+               .down{
+
+                  height: 10%;
+                  width: 100%;
+                  background-color: black;
+                   
+               }
+
+            }
+   }
+
+         .menuBurgerCrossView{
+
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .up_start{
+
+               height: 10%;
+               width: 100%;
+               background-color: black;
+               
+               animation-name: burAnimUp  !important;
+               animation-duration: 300ms;
+               animation-iteration-count: 1;
+               animation-fill-mode: forwards;
+                
+            }
+            .center_start{
+
+               height: 10%;
+               width: 100%;
+               background-color: black;
+
+               animation-name: burAnimCentr  !important;
+               animation-duration: 300ms;
+               animation-iteration-count: 1;
+               animation-fill-mode: forwards;
+                
+            }
+            .down_start{
+
+               height: 10%;
+               width: 100%;
+               background-color: black;
+
+               animation-name: burAnimDown !important;
+               animation-duration: 300ms;
+               animation-iteration-count: 1;
+               animation-fill-mode: forwards;
+                
+            }
+
+         }
+
+          //==========
+      .menuBurgerCrossView_rev{
+
+         width: 100%;
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+
+          .up_rev{
+
+            height: 10%;
+            width: 100%;
+            background-color: black;
+            
+            animation-name: burAnimUp_rev;
+            animation-duration: 300ms;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+             
+         }
+         .center_rev{
+
+            height: 10%;
+            width: 100%;
+            background-color: black;
+
+            animation-name: burAnimCentr_rev;
+            animation-duration: 300ms;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+             
+         }
+         .down_rev{
+
+            height: 10%;
+            width: 100%;
+            background-color: black;
+
+            animation-name: burAnimDown_rev;
+            animation-duration: 300ms;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+             
+         }
+      }
+
+
+//-----АНИМАЦИЯ_МЕНЮ_БУРГЕР------
+
+@keyframes burAnimCentr {
+
+0%{
+
+   opacity: 1;
+   transform: translateY(0vw);
+
+}
+100%{
+
+   opacity: 0;
+   transform: translateY(-4vw) scale(-0.4);
+
+}
+
+}
+
+@keyframes burAnimUp {
+
+   0%{
+
+      transform: translateY(0vw) rotate(0deg) ;
+
+   }
+   100%{
+
+      transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+
+   }
+   
+   }
+
+@keyframes burAnimDown {
+
+      0%{
+
+         transform: translateY(0vw) rotate(0deg);
+
+      }
+      100%{
+
+         
+         transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+      }
+      
+      }
+
+//-----РЕВЕРС----
+
+@keyframes burAnimCentr_rev {
+
+   0%{
+   
+      opacity: 0;
+      transform: translateY(-4vw);
+   
+   }
+   100%{
+   
+      opacity: 1;
+      transform: translateY(0vw);
+   
+   }
+   
+   }
+   
+@keyframes burAnimUp_rev {
+   
+      0%{
+   
+         transform: translateY(1.55vw) rotate(45deg) scale(0.7, 0.7);
+   
+      }
+      100%{
+   
+         transform: translateY(0vw) rotate(0deg);
+   
+      }
+      
+      }
+   
+@keyframes burAnimDown_rev {
+   
+         0%{
+   
+            transform: translateY(-1.55vw) rotate(-45deg) scale(0.7, 0.7);
+   
+         }
+         100%{
+   
+            
+            transform: translateY(0) rotate(0);
+         }
+         
+         }
+
+   
+
