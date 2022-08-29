@@ -72,10 +72,32 @@
 
     }
 
+    /* ============================================ */
+  /* ======---===---=-==-=-=-=-=-=------=====---== */
+  /* ===================CATALOG=================== */
+
+
+  .catalogAndMenuCatContainer .catalogProduct-container{
+
+    overflow: hidden;
+    width: 90vw;
+    margin: 0 auto;
     
+
   }
-  
-  
+
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox{
+
+    margin: 0 5px;
+    width: 20vw;
+
+  }
+
+
+
+
+  }
+   
 
 
 
@@ -454,6 +476,53 @@
 
   }
   
+  /* ===================================== */
+  /* ===================================== */
+
+  body{
+    overflow-x: hidden;
+
+  }
+
+  .catalogAndMenuCatContainer .catalogProduct-container{
+
+    overflow: hidden;
+    width: 140vw;
+
+    justify-content: left;
+
+  }
+  .catalogAndMenuCatContainer .catalogMenu-container .menu-container{
+
+    width: 50vw;
+
+  }
+
+  .catalogAndMenuCatContainer .catalogProduct-container .arrowLeft-catalog{
+
+    display:none;
+
+  }
+  .catalogAndMenuCatContainer .catalogProduct-container .arrowRight-catalog{
+
+    display:none;
+
+  }
+
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox{
+
+    width: 33vw;
+
+  }
+
+
+
+
+
+
+
+
+
 
  }
 
