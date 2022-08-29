@@ -646,7 +646,7 @@
 
   .bg-img{
 
-    top:79vw;
+    top:100vw;
 
     height: 90vw;
 
@@ -654,21 +654,36 @@
 
   .bg-background{
     left:0;
-    top:75vw;
+    top:96vw;
     width: 100%;
     height: 98vw;
+  }
+
+  .firstContainer{
+
+    height: 135vw;
+
+    justify-content: start;
+
   }
 
   .firstContainer .descriptionProduct{
 
     /* border:1px solid black; */
     width: 100%;
+    height: 50%;
+  }
+  .firstContainer .descriptionProduct .title{
+    height: calc((135vw/2)/3);
+  }
+  .firstContainer .descriptionProduct .description{
+    height: calc((135vw/2)/3);
   }
 
   .firstContainer .descriptionProduct .buttonViewCatalog{
 
     width: 50vw;
-    height: 10vw;
+    height: calc(((135vw/2)/3)/2);
     margin: 0 auto;
 
   }
@@ -677,7 +692,9 @@
 
     width: 100%;
 
-    height: 47vw ;
+    height: 50% ;
+
+    margin: 0;
     
 
   }
@@ -686,6 +703,8 @@
 
     display: flex;
     justify-content: center;
+
+    transform: translate(10%,-52%);
 
   }
 
@@ -698,15 +717,24 @@
 
   .bg-product{
 
-    top:70vw;
+    top:95vw;
+    height: 20vw;
+
+  }
+
+  .bg-product .backGround{
+
+    height: 20vw;
+    justify-content: start;
 
   }
 
   .bg-product .backGround .infoProd{
 
     flex-direction: column;
+    justify-content: end;
 
-    height: 65vw;
+    height: 60vw;
     width: 90%;
 
   }
@@ -731,7 +759,79 @@
     order: 1;
 
   }
+
+  .bg-product .backGround .infoProd .nameProduct .arrow-name{
+    display: none;
+  }
  
+
+  /* ================================ */
+  /* =======CATALOG================== */
+
+
+  .catalogAndMenuCatContainer .catalogMenu-container{
+
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 23vw;
+
+  }
+  .catalogAndMenuCatContainer .catalogMenu-container .emptyCell-catalogMenu{
+
+    display: none;
+  }
+  .catalogAndMenuCatContainer .catalogMenu-container .headline-menuCatalog{
+
+    margin: 0 auto;
+  }
+
+
+  .catalogAndMenuCatContainer .catalogMenu-container .menu-container{
+
+    margin: 0 auto;
+
+  }
+
+  .catalogAndMenuCatContainer .catalogProduct-container{
+
+    width: 400vw;
+
+  }
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox{
+
+    width: 100vw;
+    box-shadow: 0 0 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.071);
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.071);
+
+    margin: 2vh 0;
+
+    padding: 2vh 0;
+
+  }
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox .headline-productBox{
+
+    margin:5vh;
+
+    white-space: nowrap;
+
+  }
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox .descrProduct-container{
+
+    margin: 10vh 0;
+    width: 35vw;
+
+  }
+  .catalogAndMenuCatContainer .catalogProduct-container .productBox .costProduct-catalog{
+
+    width: 100%;
+    text-align: center;
+    padding: 0;
+
+  }
+
+
 
  }
 
